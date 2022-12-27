@@ -1,9 +1,21 @@
+---
+import '../styles/global.css';
+
+const pageTitle = 'My Astro Learning Blog';
+---
+
 <body>
   <a href='/my-blog/'>Home</a>
   <a href='/my-blog/about/'>About</a>
   <a href='/my-blog/blog/'>Blog</a>
+  <title>{pageTitle}</title>
 
   <h1>My Astro Site</h1>
   <h1>My Astro Learning Blog</h1>
   <p>This is where I will post about my journey learning Astro.</p>
+  <ul>
+    <li><a href='/my-blog/posts/post-1/'>Post 1</a></li>
+    <li><a href='/my-blog/posts/post-2/'>Post 2</a></li>
+    <li><a href='/my-blog/posts/post-3/'>Post 3</a></li>
+  </ul>
 </body>
